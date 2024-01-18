@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="23" passed="10" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Url lunch and Home Page is Opened]]>
+    </line>
+    <line>
+      <![CDATA[Link count is: 25]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[How it works]]>
+    </line>
+    <line>
+      <![CDATA[Impact]]>
+    </line>
+    <line>
+      <![CDATA[About Us]]>
+    </line>
+    <line>
+      <![CDATA[Login/Sign up]]>
+    </line>
+    <line>
+      <![CDATA[Make an impact]]>
+    </line>
+    <line>
+      <![CDATA[Sign Up]]>
+    </line>
+    <line>
+      <![CDATA[Previous]]>
+    </line>
+    <line>
+      <![CDATA[Next]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Show more]]>
+    </line>
+    <line>
+      <![CDATA[NGOs]]>
+    </line>
+    <line>
+      <![CDATA[Corporates]]>
+    </line>
+    <line>
+      <![CDATA[Individuals]]>
+    </line>
+    <line>
+      <![CDATA[Team Maanch]]>
+    </line>
+    <line>
+      <![CDATA[Our Partners]]>
+    </line>
+    <line>
+      <![CDATA[Blog]]>
+    </line>
+    <line>
+      <![CDATA[FAQs]]>
+    </line>
+    <line>
+      <![CDATA[Fundraising Tips]]>
+    </line>
+    <line>
+      <![CDATA[Fundraiser Video]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[AboutUs Page is Open]]>
+    </line>
+    <line>
+      <![CDATA[About Us Page URL: http://demo-user:Demo%40321!@demo.maanch.com/]]>
+    </line>
+    <line>
+      <![CDATA[Impact Page is openend]]>
+    </line>
+    <line>
+      <![CDATA[Impact Page URL: http://demo-user:Demo%40321!@demo.maanch.com/#impact]]>
+    </line>
+    <line>
+      <![CDATA[Login to check the latest activities on your profile.]]>
+    </line>
+    <line>
+      <![CDATA[http://demo-user:Demo%40321!@demo.maanch.com/login#how-it-works]]>
+    </line>
+    <line>
+      <![CDATA[How it Page is Opened]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-19T00:30:09 IST" name="Default suite" finished-at="2024-01-19T00:30:30 IST" duration-ms="20395">
+    <groups>
+    </groups>
+    <test started-at="2024-01-19T00:30:09 IST" name="Default test" finished-at="2024-01-19T00:30:30 IST" duration-ms="20395">
+      <class name="test.AboutUsTest">
+        <test-method is-config="true" signature="driverinitialization()[pri:0, instance:test.AboutUsTest@663c9e7a]" started-at="2024-01-19T00:30:25 IST" name="driverinitialization" finished-at="2024-01-19T00:30:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinitialization -->
+        <test-method signature="ValidateAboutUsFuntion()[pri:1, instance:test.AboutUsTest@663c9e7a]" started-at="2024-01-19T00:30:25 IST" name="ValidateAboutUsFuntion" finished-at="2024-01-19T00:30:27 IST" duration-ms="1230" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://demo-user:Demo%40321!@demo.maanch.com/#AboutUs] but found [http://demo-user:Demo%40321!@demo.maanch.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://demo-user:Demo%40321!@demo.maanch.com/#AboutUs] but found [http://demo-user:Demo%40321!@demo.maanch.com/]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at test.AboutUsTest.ValidateAboutUsFuntion(AboutUsTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[AboutUs Page is Open]]>
+            </line>
+            <line>
+              <![CDATA[About Us Page URL: http://demo-user:Demo%40321!@demo.maanch.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateAboutUsFuntion -->
+      </class> <!-- test.AboutUsTest -->
+      <class name="test.HomePageTest">
+        <test-method is-config="true" signature="createSession()[pri:0, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:09 IST" name="createSession" finished-at="2024-01-19T00:30:16 IST" duration-ms="7030" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url lunch and Home Page is Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createSession -->
+        <test-method is-config="true" signature="driverinitialization()[pri:0, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:16 IST" name="driverinitialization" finished-at="2024-01-19T00:30:17 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinitialization -->
+        <test-method signature="ValidateMakeAnImapct()[pri:1, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:17 IST" name="ValidateMakeAnImapct" finished-at="2024-01-19T00:30:19 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMakeAnImapct -->
+        <test-method signature="ValidateSignUpButton()[pri:2, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:19 IST" name="ValidateSignUpButton" finished-at="2024-01-19T00:30:20 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSignUpButton -->
+        <test-method signature="ValidateShowMoreButton()[pri:4, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:20 IST" name="ValidateShowMoreButton" finished-at="2024-01-19T00:30:23 IST" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateShowMoreButton -->
+        <test-method signature="ValidateBrowserImpactTableVisibility()[pri:5, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:23 IST" name="ValidateBrowserImpactTableVisibility" finished-at="2024-01-19T00:30:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBrowserImpactTableVisibility -->
+        <test-method signature="ValidateLinkOnPage()[pri:6, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:23 IST" name="ValidateLinkOnPage" finished-at="2024-01-19T00:30:23 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Link count is: 25]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[How it works]]>
+            </line>
+            <line>
+              <![CDATA[Impact]]>
+            </line>
+            <line>
+              <![CDATA[About Us]]>
+            </line>
+            <line>
+              <![CDATA[Login/Sign up]]>
+            </line>
+            <line>
+              <![CDATA[Make an impact]]>
+            </line>
+            <line>
+              <![CDATA[Sign Up]]>
+            </line>
+            <line>
+              <![CDATA[Previous]]>
+            </line>
+            <line>
+              <![CDATA[Next]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Show more]]>
+            </line>
+            <line>
+              <![CDATA[NGOs]]>
+            </line>
+            <line>
+              <![CDATA[Corporates]]>
+            </line>
+            <line>
+              <![CDATA[Individuals]]>
+            </line>
+            <line>
+              <![CDATA[Team Maanch]]>
+            </line>
+            <line>
+              <![CDATA[Our Partners]]>
+            </line>
+            <line>
+              <![CDATA[Blog]]>
+            </line>
+            <line>
+              <![CDATA[FAQs]]>
+            </line>
+            <line>
+              <![CDATA[Fundraising Tips]]>
+            </line>
+            <line>
+              <![CDATA[Fundraiser Video]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLinkOnPage -->
+        <test-method signature="ValidateNavigation()[pri:7, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:23 IST" name="ValidateNavigation" finished-at="2024-01-19T00:30:24 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNavigation -->
+        <test-method signature="ValidatePageScroll()[pri:8, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:24 IST" name="ValidatePageScroll" finished-at="2024-01-19T00:30:25 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePageScroll -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:test.HomePageTest@202b0582]" started-at="2024-01-19T00:30:29 IST" name="closeSession" finished-at="2024-01-19T00:30:30 IST" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- test.HomePageTest -->
+      <class name="test.ImpactTest">
+        <test-method is-config="true" signature="driverinitialization()[pri:0, instance:test.ImpactTest@19e4653c]" started-at="2024-01-19T00:30:27 IST" name="driverinitialization" finished-at="2024-01-19T00:30:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinitialization -->
+        <test-method signature="CheckImpactPg()[pri:1, instance:test.ImpactTest@19e4653c]" started-at="2024-01-19T00:30:27 IST" name="CheckImpactPg" finished-at="2024-01-19T00:30:28 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Impact Page is openend]]>
+            </line>
+            <line>
+              <![CDATA[Impact Page URL: http://demo-user:Demo%40321!@demo.maanch.com/#impact]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckImpactPg -->
+      </class> <!-- test.ImpactTest -->
+      <class name="test.LoginTestDemo">
+        <test-method is-config="true" signature="driverinitialization()[pri:0, instance:test.LoginTestDemo@53045c6c]" started-at="2024-01-19T00:30:28 IST" name="driverinitialization" finished-at="2024-01-19T00:30:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinitialization -->
+        <test-method signature="LoginSignUpTest()[pri:1, instance:test.LoginTestDemo@53045c6c]" started-at="2024-01-19T00:30:28 IST" name="LoginSignUpTest" finished-at="2024-01-19T00:30:28 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to check the latest activities on your profile.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginSignUpTest -->
+      </class> <!-- test.LoginTestDemo -->
+      <class name="test.HowItWorkTest">
+        <test-method is-config="true" signature="driverinitialization()[pri:0, instance:test.HowItWorkTest@5149d738]" started-at="2024-01-19T00:30:28 IST" name="driverinitialization" finished-at="2024-01-19T00:30:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverinitialization -->
+        <test-method signature="CheckHowItWork()[pri:1, instance:test.HowItWorkTest@5149d738]" started-at="2024-01-19T00:30:28 IST" name="CheckHowItWork" finished-at="2024-01-19T00:30:29 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[http://demo-user:Demo%40321!@demo.maanch.com/login#how-it-works]]>
+            </line>
+            <line>
+              <![CDATA[How it Page is Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckHowItWork -->
+      </class> <!-- test.HowItWorkTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
